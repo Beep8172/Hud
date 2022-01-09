@@ -1,0 +1,79 @@
+/*Made by Beep#4812*/
+
+#statusHud {
+	width: 14.2%;
+	position: absolute;
+	bottom: 0.5%;
+    left: 1.5%;
+}
+
+#varHealth {
+	width: calc(25% - 2px - 4px);
+	margin-left: 0px;
+} 
+#varArmor {
+	width: calc(25% - 4px - 4px);
+
+}
+#varHunger {
+	width: calc(25% - 4px - 4px);
+
+}
+#varThirst {
+	width: calc(25% - 4px - 4px);
+
+}
+
+
+#varHealth > #boxSetHealth {
+	background: rgb(255, 0, 0);
+}
+#varArmor > #boxSetArmour {
+	background: rgb(0, 0, 255);
+}
+
+#varHunger > #boxSetHunger {
+	background: rgb(255, 157, 0);
+}
+
+#varThirst > #boxSetThirst {
+	background: rgb(0, 183, 255);
+}
+
+.bar {
+	background-color: rgb(255, 255, 255);
+	width: calc(12.5% - 4px - 4px);
+	height: 25.5px;
+	border-radius: 5px;
+	float: left;
+
+
+	border: 2px solid #000000;
+	border-width: 2px;	
+	margin-right: 2px;
+	border-radius: 5px;
+    margin-left: 2px;
+    z-index: 98;
+}
+
+#boxSetHealth, #boxSetArmour, #boxSetHunger, #boxSetThirst {
+	width: 100%;
+	border-radius: 3px;
+	height: 25.5px;
+	background: rgba(110, 110, 110, 0.5);
+	position: relative;
+	bottom: 0;
+	z-index: 97;
+}
+
+.barIcon {
+	width: calc(12.5% - 4px - 4px);
+	height: 15.5px;
+	padding-top: 5px;
+	padding-left: 15px;
+	position: absolute;
+	z-index: 99;
+	color: #000000;
+}
+
+/*Made by Beep#4812*/
