@@ -1,8 +1,7 @@
 fx_version 'adamant'
 game 'gta5'
 
-author 'Dannydoodmantv'
-description 'Roleplay Hud w/ Hunger, Thirst'
+author 'Beep#4812'
 version '1.0.0'
 
 client_scripts {
